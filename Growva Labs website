@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Growva Labs – Social Media Agency</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif}
+body{background:#fff;color:#000;line-height:1.6}
+a{text-decoration:none;color:inherit}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:30px 8%;
+}
+
+header h1{font-size:22px;font-weight:700}
+
+.hero{
+padding:120px 8%;
+}
+
+.hero h2{
+font-size:clamp(44px,7vw,80px);
+max-width:900px;
+}
+
+.hero p{
+margin-top:25px;
+font-size:20px;
+color:#555;
+max-width:650px;
+}
+
+.btn{
+display:inline-block;
+margin-top:40px;
+padding:16px 38px;
+background:#000;
+color:#fff;
+border-radius:50px;
+transition:.3s;
+}
+
+.btn:hover{transform:translateY(-2px);background:#111}
+
+section{padding:110px 8%}
+
+.light{background:#f4f4f4}
+.dark{background:#000;color:#fff}
+
+section h3{font-size:38px;margin-bottom:30px}
+section p{font-size:20px;max-width:800px;color:#444}
+.dark p{color:#ccc}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:30px;
+margin-top:50px;
+}
+
+.service{
+border:1px solid rgba(255,255,255,.2);
+padding:40px;
+border-radius:20px;
+transition:.3s;
+}
+
+.service:hover{transform:translateY(-5px);border-color:#fff}
+
+.cta{text-align:center}
+
+footer{
+padding:40px 8%;
+text-align:center;
+font-size:14px;
+color:#777;
+border-top:1px solid #eee;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Growva Labs</h1>
+<a class="btn" href="https://ig.me/m/growvalabs">Get Started</a>
+</header>
+
+<div class="hero">
+<h2>We build brands that grow.</h2>
+<p>
+Growva Labs is a modern social media agency helping brands grow
+through strategy, content, and reach.
+</p>
+<a class="btn" href="https://ig.me/m/growvalabs">Get Started</a>
+</div>
+
+<section class="light">
+<h3>About Growva Labs</h3>
+<p>
+We are a social media agency focused on building long-term brand presence.
+Our approach is simple: clarity, consistency, and intent.
+</p>
+</section>
+
+<section class="dark">
+<h3>What We Do</h3>
+
+<div class="services">
+<div class="service">Social Media Strategy</div>
+<div class="service">Content Planning & Direction</div>
+<div class="service">Brand Positioning</div>
+<div class="service">Reach & Engagement</div>
+</div>
+</section>
+
+<section>
+<h3>Our Work</h3>
+<p>
+We are currently building our portfolio through our own brand,
+content experiments, and ongoing growth projects.
+</p>
+</section>
+
+<section class="dark cta">
+<h3>Ready to get started?</h3>
+<a class="btn" href="https://ig.me/m/growvalabs">Get Started</a>
+</section>
+
+<footer>
+© Growva Labs — Yeh sirf shuruaat hai.
+</footer>
+
+</body>
+</html>
